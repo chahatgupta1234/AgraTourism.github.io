@@ -1,0 +1,17 @@
+ul,ol{
+    line-height: 1.4em;
+    padding: 10px;
+    margin: 10px;
+}
+ol{
+    font-size: 1.2em;
+}
+
+body{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 45px;
+}

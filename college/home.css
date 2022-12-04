@@ -1,0 +1,174 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
+    /* background-color:blue; */
+    background-image:linear-gradient(rgba(25, 70, 252, 0.7), rgba(5, 9, 27, 0.7)), url(https://qph.cf2.quoracdn.net/main-qimg-7eb9f34ffbfda284ccb834420a39ed4c.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.campus{
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 10px;
+   text-align: center;
+   color: white;
+  
+}
+
+h1{
+    padding: 15px;
+    color:white;
+    border:double 10px white;
+    font-size: 2em;
+    background :blue;
+    margin: 20px 0px 10px 0px ;
+    
+  
+}
+
+
+
+h2{
+    padding: 5px;
+    color: black;
+    border:dashed;
+    background-color:greenyellow;
+    margin: 5px;
+    font-size: 1.7em;
+
+}
+
+h3{
+    color: white;
+    background-color:black;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 0;
+   
+}
+
+.link{
+    padding: 5px;
+    width: 100%;
+    /* position: fixed; */
+    font-size: 20px;
+    /* background :blue; */
+    margin: 0px;
+    /* float: right; */
+
+}
+.heading p{
+    /* font-size: 1rem; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    height: 100em;
+   
+    
+   
+}
+
+/* .image{
+    background-color: red;
+    
+   
+} */
+
+.link li{
+    display: inline-block;
+    /* float: left; */
+}
+
+
+.link ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.link li:hover{
+    background-color: red;
+  
+}
+.link a{
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0px;
+    
+}
+p{
+    /* color:white; */
+    /* font-size: 2em; */
+     padding:initial auto;
+}
+
+pre{
+    font-size: 15px;
+    color: white;
+}
+
+
+ul,ol{
+    color:white;
+}
+
+
+
+a{
+    color:red;
+    text-decoration: none;
+    color:cornsilk;
+}
+
+pre{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+footer{
+    background-color: darkred;
+  
+}
+
+
+
+
+footer .foot{
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    /* padding:2rem; */
+    text-align: left;
+ 
+}
+
+footer .foot ul{
+    list-style: none;
+    color: white;
+   
+}
+
+.last{
+    margin:3rem;
+    font-size: 1.5rem;
+}
+
+.end{
+    margin-bottom: 50px;
+}
