@@ -25,12 +25,12 @@ pipeline {
         }
     }
 
-    post {
-        success {
-            // Perform any additional actions on success
-        }
-        failure {
-            // Perform any actions in case of failure
-        }
-    }
+    // post {
+    //     success {
+    //         // Perform any additional actions on success
+    //     }
+    //     failure {
+    //         // Perform any actions in case of failure
+    //     }
+    // }
 }
