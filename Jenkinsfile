@@ -14,12 +14,19 @@ pipeline {
                 ])
             }
         }
+        stage('Checkout') {
+            steps {
+                // Checkout the code from the GitHub repository
+                checkout scm
+            }
+        }
+
 
         stage('Deploy to Apache') {
             steps {
                 // Copy the code to the Apache document root directory
                 bat script: '''
-                    xcopy /s /e /y "C:\\Users\\CHAHAT\\Desktop\\ManitCollege.github.io" "C:\\Apache24\\htdocs"
+                    xcopy /s /e /y ./* "C:\\Apache24\\htdocs"
                 '''
             }
         }
