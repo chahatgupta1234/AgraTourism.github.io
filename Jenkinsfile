@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('env') {
             steps {
                 // Check out the code from your GitHub repository
                 checkout([$class: 'GitSCM', 
