@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('env') {
+        stage('Checkout') {
             steps {
                 // Check out the code from your GitHub repository
                 checkout([$class: 'GitSCM', 
@@ -14,19 +14,12 @@ pipeline {
                 ])
             }
         }
-        stage('Checkout') {
-            steps {
-                // Checkout the code from the GitHub repository
-                checkout scm
-            }
-        }
-
 
         stage('Deploy to Apache') {
             steps {
                 // Copy the code to the Apache document root directory
                 bat script: '''
-                    xcopy /s /e /y ./* "C:\\Apache24\\htdocs"
+                    xcopy /s /e /y "C:\\Users\\CHAHAT\\Desktop\\ManitCollege.github.io" "C:\\Apache24\\htdocs"
                 '''
             }
         }
@@ -38,6 +31,6 @@ pipeline {
     //     }
     //     failure {
     //         // Perform any actions in case of failure
-    //     }
-    // }
+    //     }
+    // }
 }
